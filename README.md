@@ -43,6 +43,8 @@ Para evitar la catástrofe, debes pulsar cualquier tecla (si estás en ordenador
   + He cambiado el panel de control adjuntado por unas imágenes que representan velocidad, altitud y gasolina (por estética).
   + He borrado el fondo de la imagen de la luna (era una imagen con fondo blanco).
   
+***
+  
 ##Información adicional:
 
 - Puedes ver [aquí](https://github.com/isabelmartinez/LunarLander) más información sobre el proyecto inicial (las imágenes e ideas iniciales, los cambios realizados anteriormente...).
