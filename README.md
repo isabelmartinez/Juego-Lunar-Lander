@@ -28,8 +28,10 @@ Para evitar la catástrofe, debes pulsar cualquier tecla (si estás en ordenador
 
 ##Páginas visitadas:
 
-- [W3schools](http://www.w3schools.com).
-- [LibrosWeb](http://librosweb.es).
+- [W3schools](http://www.w3schools.com). Utilizada para consultas de CSS y JS.
+- [LibrosWeb](http://librosweb.es). Utilizada para consultas de CSS y JS.
+- [Optimizilla](http://optimizilla.com/es). Utilizada para optimizar las imágenes.
+- [RawGit](https://rawgit.com). Utilizada para jugar online.
 
 ***
 
