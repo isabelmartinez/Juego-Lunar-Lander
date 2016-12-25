@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lunar Lander JS</title>
+    <meta name="description" content="Lunar Lander">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' media='screen and (min-width: 721px)' href='css/d.css'>
+    <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/m.css'>
+    <script src="js/js.js"></script>
+</head>
+<body>
+    <div id="nave">
+        <img id="cohete" src="img/nave_off.png" alt="img nave">
+    </div>
+    <img onclick="pausar();" id ="showmenu" src="img/pause.png">
+    <div id="tierra">
+        <img src="img/tierra.png" alt="img_Tierra">
+    </div>
+    <div class="a">
+        <div id="control_panel">
+            <img src="img/velocidad.png"> <span id="velocidad">100</span> m/s<br>
+            <img src="img/gasolina.png"> <span id="fuel">100</span> l<br>
+            <img src="img/altitud.png"> <span id="altura">72</span> m<br>
+        </div>
+    </div>
+    <div class="b"></div>
+    <div id="c">
+        <img onclick="reanudar();" id="hidemenu" src="img/cerrar2.png">
+        <br><br><h1>Pausa</h1>
+        <p>Debes aterrizar la nave en la Luna a una velocidad inferior a 5 m/s. De lo contrario, la nave explotará.</p>
+        <p>Para que no tenga lugar la catástrofe, mantén pulsada cualquier tecla o haz click en la pantalla para encender y apagar el motor. <br><br> Así, conseguirás reducir la velocidad.<p>
+				<p>Debes tener en cuenta que la gasolina se esfumará cuando la nave intente bajar de velocidad.</p><br><br> Que no cunda el pánico, ¡seguro que puedes lograrlo!
+    </div>
+    <div class="d"></div>
+    <div id="fin">
+        <h1 id="fin_juego">¡Juego finalizado!</h1>
+        <span id="game">Game over! Inténtalo de nuevo para mejorar y poder ganar. <br><br>¡Que la suerte te acompañe!</span><br>
+        <div id="reiniciar"><img onclick="reiniciar();" src="img/reinicio.png" alt="img_Reiniciar"></div>
+        <div id="about"><a href="about.html"><img src="img/informacion.png" alt="img_About"></a></div>
+    </div>
+</body>
+</html>

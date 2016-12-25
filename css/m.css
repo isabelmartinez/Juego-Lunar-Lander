@@ -1,0 +1,125 @@
+
+body,html{
+    background-image: url(../img/estrellas.png);
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+
+.a {
+		width: 45%;
+		height: 100%;
+		display: inline-block;
+    float: left;
+    color: #6F97BA;
+}
+
+#c{
+    background-color: #6F97BA;
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    height: 90%;
+    width: 95%;
+    display:none;
+    z-index: 10;
+    filter: opacity(70%);
+    text-align: center;
+    color: white;
+    font-size: large;
+		font-family:sans-serif;
+
+}
+.d{
+    background-image: url(../img/fondo_lunar.png);
+    background-size: cover;
+    position:fixed;
+    bottom:0px;
+    height:15%;
+    width:100%;
+}
+
+#tierra{
+		width: 100%;
+		height: 70%;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    z-index: 0;
+}
+
+#tierra img{
+    height: 100%;
+    position: relative;
+}
+
+#control_panel{z-index: 19;}
+
+#control_panel img{
+    width: 25%;
+    margin: 2%;
+    vertical-align: middle;
+}
+
+#nave{
+    text-align:center;
+    position:fixed;
+    top:10%;
+    width:100%;
+    height:20%;
+    z-index: 20;
+}
+
+#nave img{
+    height:100%;
+}
+
+#altura{
+    z-index: 3;
+}
+
+#showmenu{
+    float: right;
+    width: 15%;
+		margin-top: 2%;
+		margin-right: 2%;
+}
+
+#hidemenu{
+    float: right;
+    width: 10%;
+    margin: 2%;
+}
+
+#reiniciar{
+    width: 30%;
+    display: inline-block;
+    margin-top: 10%;
+    position: relative;
+}
+#reiniciar img{
+    width: 50%;
+}
+#about{
+		margin-top: 10%;
+		position: relative;
+    width: 30%;
+    display: inline-block;
+}
+#about img{
+    width: 50%;
+}
+#fin{
+    top: 20%;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    position: fixed;
+    background-color: #6F97BA;
+    color: white;
+    font-size: large;
+    filter: opacity(70%);
+    display: none;
+    z-index: 10;
+    text-align: center;
+}
